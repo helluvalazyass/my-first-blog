@@ -57,7 +57,7 @@ SECRET_KEY = 'yvx2!uo*=j64g30em3^z7ab$1^n+$ue929#3g$$(%qef&+80!b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'monuuyad.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'monuuyad.pythonanywhere.com', 'localhost','still-atoll-22535.herokuapp.com']
 
 
 # Application definition
