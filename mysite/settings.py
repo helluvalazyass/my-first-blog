@@ -42,12 +42,6 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-
-
-
-
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
@@ -57,7 +51,10 @@ SECRET_KEY = 'yvx2!uo*=j64g30em3^z7ab$1^n+$ue929#3g$$(%qef&+80!b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'monuuyad.pythonanywhere.com', 'localhost','still-atoll-22535.herokuapp.com']
+'still-atoll-22535.herokuapp.com'
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'monuuyad.pythonanywhere.com', 'localhost',
+ ]
 
 
 # Application definition
@@ -68,8 +65,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'blog',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
@@ -151,5 +148,3 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
